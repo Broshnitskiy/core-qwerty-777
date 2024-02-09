@@ -1,20 +1,10 @@
-/* @import "./base/commom.css";
+@import "./base/common.css";
 @import "./base/variables.css";
 @import "./base/container.css";
 @import "./base/visually-hidden.css";
 
 @import './layout/header.css';
-@import './layout/hero.css';
-@import './layout/about-us.css';
-@import './layout/branches.css';
-@import './layout/why-we.css';
-@import './layout/contact-us.css';
-@import './layout/footer.css';
 
-@import './components/subTitle.css';
-@import './components/runningText.css';
-@import './components/modal.css';
-@import './components//burgerMenu.css';
-@import './components/btnForConsultation.css';
-@import './components/socialMedia.css';
-@import './components/invertedArea.css'; */
+@import './components/accent-button.css';
+@import './components/link-underline-animation.css'
+
