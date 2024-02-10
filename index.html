@@ -66,7 +66,11 @@
             <a class="header__wrapper__link link-under-animate" href="/"
               >Sing In
             </a>
-            <button class="accent-button header__wrapper__button" type="button">
+            <button
+              class="accent-button header__wrapper__button"
+              type="button"
+              data-modal-open
+            >
               Contact sales
             </button>
           </div>
@@ -100,7 +104,11 @@
                 navigation, and conversion path that can eventually affect its
                 micro and macro conversion rates.
               </p>
-              <button class="accent-button hero__run-button" type="button">
+              <button
+                class="accent-button hero__run-button"
+                type="button"
+                data-modal-open
+              >
                 Run the Plerdy tool
               </button>
               <h2 class="hero__subtitle">
@@ -339,7 +347,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__content">
-          <button class="footer__content__button accent-button" type="button">
+          <button
+            class="footer__content__button accent-button"
+            type="button"
+            data-modal-open
+          >
             Boost my website conversion
           </button>
           <p class="footer__content__text">
@@ -351,6 +363,11 @@
       </div>
     </footer>
 
+    <div class="backdrop is-hidden" data-backdrop>
+      <div class="modal-window" data-modal></div>
+    </div>
+
+    <script type="module" src="js/modal.js"></script>
     <script type="module" src="js/swiper.js"></script>
   </body>
 </html>
