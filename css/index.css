@@ -4,7 +4,9 @@
 @import "./base/visually-hidden.css";
 
 @import './layout/header.css';
+@import './layout/hero.css';
 
 @import './components/accent-button.css';
-@import './components/link-underline-animation.css'
+@import './components/link-underline-animation.css';
+@import './components/brand-list.css'
 

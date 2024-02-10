@@ -1,9 +1,11 @@
 :root {
     --text-color: #001e41;
     --second-color: #7d7d7d;
+    --third-color: #909090;
     --accent-color: #5d78ff;
+    --accent-color-2:#e2f2ff;
 
-    --main-font: "Roboto Condensed", sans-serif;
+    --main-font: "Roboto", sans-serif;
     --second-font: "Source Sans 3", sans-serif;
     
 }

@@ -1,0 +1,44 @@
+.brand-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+transition: opacity 250ms ease;
+}
+
+@media (max-width: 767px) {
+    .brand-list__item__img-1 {
+        width: 90px;
+    }
+
+    .brand-list__item__img-2 {
+        padding-top: 2px;
+        width: 105px;
+    }
+
+    .brand-list__item__img-3 {
+        width: 85px;
+    }
+
+    .brand-list__item__img-4 {
+        width: 68px;
+    }
+
+    .brand-list__item__img-5 {
+        padding-top: 6px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .brand-list__item:hover{
+        opacity: 0.5;
+    }
+}
