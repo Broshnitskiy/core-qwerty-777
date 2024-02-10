@@ -1,12 +1,12 @@
-@import "./base/common.css";
-@import "./base/variables.css";
-@import "./base/container.css";
-@import "./base/visually-hidden.css";
 
-@import './layout/header.css';
-@import './layout/hero.css';
+@import "/css/base/common.css";
+@import "/css/base/variables.css";
+@import "/css/base/container.css";
+@import "/css/base/visually-hidden.css";
 
-@import './components/accent-button.css';
-@import './components/link-underline-animation.css';
-@import './components/brand-list.css'
+@import '/css/layout/header.css';
+@import '/css/layout/hero.css';
 
+@import '/css/components/accent-button.css';
+@import '/css/components/link-underline-animation.css';
+@import '/css/components/brand-list.css';
