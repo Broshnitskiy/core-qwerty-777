@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,11 +30,11 @@
     <header class="header">
       <div class="container">
         <nav class="header__navigate">
-          <a href="/" class="logo">
+          <a href="#" class="logo">
             <img
               class="logo__icon"
               src="images/svg/logo_plerdy.svg"
-              alt="Логотип компанії Plerdy"
+              alt="Logo Plerdy"
             />
           </a>
 
@@ -42,28 +42,28 @@
             <li class="header__navigate__list__item">
               <a
                 class="header__navigate__list__item__link link-under-animate"
-                href="/"
+                href="#"
                 >Pricing
               </a>
             </li>
             <li class="header__navigate__list__item">
               <a
                 class="header__navigate__list__item__link link-under-animate"
-                href="/"
+                href="#"
                 >Use Cases
               </a>
             </li>
             <li class="header__navigate__list__item">
               <a
                 class="header__navigate__list__item__link link-under-animate"
-                href="/"
+                href="#"
                 >Book a Demo
               </a>
             </li>
           </ul>
 
           <div class="header__wrapper">
-            <a class="header__wrapper__link link-under-animate" href="/"
+            <a class="header__wrapper__link link-under-animate" href="#"
               >Sing In
             </a>
             <button
@@ -159,23 +159,27 @@
                   srcset="images/hero-img.webp 1x, images/hero-img@2x.webp 2x"
                   type="image/webp"
                 />
-                <img class="hero__picture__img" src="#" alt="Фото працівника" />
+                <img
+                  class="hero__picture__img"
+                  src="#"
+                  alt="Photo of the employee"
+                />
               </picture>
 
               <img
                 class="hero__picture-block__frame-1"
                 src="images/frame-1.webp"
-                alt="Діаграма"
+                alt="Chart"
               />
               <img
                 class="hero__picture-block__frame-2"
                 src="images/frame-2.webp"
-                alt="Діаграма"
+                alt="Chart"
               />
               <img
                 class="hero__picture-block__frame-3"
                 src="images/frame-3.webp"
-                alt="Діаграма"
+                alt="Chart"
               />
             </div>
           </div>
@@ -364,7 +368,97 @@
     </footer>
 
     <div class="backdrop is-hidden" data-backdrop>
-      <div class="modal-window" data-modal></div>
+      <div class="modal-window" data-modal>
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="svg-close">
+            <use xlink:href="images/svg/sprite.svg#close"></use>
+          </svg>
+        </button>
+
+        <div class="modal-window__content">
+          <picture class="modal-picture">
+            <source
+              srcset="images/modal-img.webp 1x, images/modal-img@2x.webp 2x"
+              type="image/webp"
+            />
+            <img
+              class="modal-picture__img"
+              src="#"
+              alt="Photo of the employee"
+            />
+          </picture>
+
+          <form class="form modal-form" autocomplete="off">
+            <h2 class="form__title">
+              How to do a Website Audit to Improve SEO & Conversions
+            </h2>
+            <p class="form__info">
+              You will get an SMS with a link to the webinar
+            </p>
+
+            <label class="form__label">
+              Name
+              <input
+                type="text"
+                name="user_name"
+                class="form__field"
+                required
+                minlength="2"
+                pattern="[a-zA-Zа-яёА-ЯЁ]+"
+                title="The name must contain Cyrillic or Latin characters"
+                placeholder="Boris Johnson"
+              />
+            </label>
+
+            <label class="form__label">
+              Lable
+              <input
+                type="tel"
+                name="user_phone"
+                class="form__field"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="097-000-00-00"
+                placeholder="XX XXX XXXX"
+              />
+            </label>
+
+            <div class="form__btn-block">
+              <button type="button" class="form__btn">Support</button>
+              <button type="submit" class="form__btn form__btn--bg">
+                Contact sales
+              </button>
+            </div>
+
+            <input
+              class="form__checkbox visually-hidden"
+              type="checkbox"
+              name="user_check"
+              id="agrees_to_the_terms"
+              required
+            />
+            <label class="form__agree-label" for="agrees_to_the_terms">
+              <span
+                >By sending up? you agree to our
+                <a href="#" class="form__checkbox-link"> Conditions </a>
+                and <br />
+                <a href="#" class="form__checkbox-link"> Privacy Policy</a>
+              </span>
+            </label>
+
+            <div class="form__footer">
+              <img
+                class="form__footer__img"
+                src="images/svg/logo_plerdy_2.svg"
+                alt="Logo Plerdy"
+              />
+              <a href="#" class="form__footer__text">
+                Powered by <span class="form__footer__highlight">Plerdy</span>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
     <script type="module" src="js/modal.js"></script>

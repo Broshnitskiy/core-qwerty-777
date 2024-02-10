@@ -1,13 +1,12 @@
 .accent-button {
-    font-family: var(--second-font);
-    text-align: center;
-    color: #fff;
-    border-radius: 8px;
-    background-color: var(--accent-color);
-    transition: color 250ms ease;
+  font-family: var(--second-font);
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  transition: opacity 250ms ease;
 }
 
 .accent-button:hover {
-    color: black;
+  opacity: 0.8;
 }
-
