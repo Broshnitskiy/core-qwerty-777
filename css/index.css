@@ -5,10 +5,11 @@
 
 @import './layout/header.css';
 @import './layout/hero.css';
-@import './layout/slider.css';
+@import './layout/slider-section.css';
 @import './layout/footer.css';
 
 @import './components/accent-button.css';
 @import './components/link-underline-animation.css';
 @import './components/brand-list.css';
 @import './components/card.css';
+@import './components/slider.css';
