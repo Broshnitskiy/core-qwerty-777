@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+3:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Sans+3:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
@@ -25,8 +25,8 @@
     <header class="header">
       <div class="container">
         <nav class="header__navigate">
-          <a href="/" class="logo"
-            ><img
+          <a href="/" class="logo">
+            <img
               class="logo__icon"
               src="images/svg/logo_plerdy.svg"
               alt="Логотип компанії Plerdy"
@@ -38,41 +38,36 @@
               <a
                 class="header__navigate__list__item__link link-under-animate"
                 href="/"
-                >Pricing</a
-              >
+                >Pricing
+              </a>
             </li>
             <li class="header__navigate__list__item">
               <a
                 class="header__navigate__list__item__link link-under-animate"
                 href="/"
-                >Use Cases</a
-              >
+                >Use Cases
+              </a>
             </li>
             <li class="header__navigate__list__item">
               <a
                 class="header__navigate__list__item__link link-under-animate"
                 href="/"
-                >Book a Demo</a
-              >
+                >Book a Demo
+              </a>
             </li>
           </ul>
 
           <div class="header__wrapper">
             <a class="header__wrapper__link link-under-animate" href="/"
-              >Sing In</a
-            >
+              >Sing In
+            </a>
             <button class="accent-button header__wrapper__button" type="button">
               Contact sales
             </button>
           </div>
 
           <button class="burger-button" type="button">
-            <svg
-              class="icon arrow-down"
-              width="24"
-              height="13"
-              stroke="#001E41"
-            >
+            <svg width="24" height="13" stroke="#001E41">
               <use xlink:href="images/svg/sprite.svg#burger"></use>
             </svg>
           </button>
@@ -173,7 +168,59 @@
           </div>
         </div>
       </section>
+
+      <section class="slider">
+        <div class="container">
+          <div class="slider__title-wrapper">
+            <h2 class="slider__title">
+              <span class="slider__title__highlight">6 Reasons</span>
+              to Use Plerdy Data for a Website Usability Audit
+            </h2>
+
+            <div class="slider__control">
+              <button
+                type="button"
+                class="slider__control__button slider__control__button--indent"
+              >
+                <svg class="" width="14" height="14">
+                  <use xlink:href="images/svg/sprite.svg#arrow-left"></use>
+                </svg>
+              </button>
+              <button type="button" class="slider__control__button">
+                <svg class="" width="14" height="14">
+                  <use xlink:href="images/svg/sprite.svg#arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">
+              You will benefit from our SaaS marketing product
+            </h3>
+            <p class="card__description">
+              Our team has developed a powerful tool to audit website content –
+              a heatmap that features more than 100 reports for e-marketers and
+              business owners.
+            </p>
+            <p class="card__number">1</p>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <button class="footer__content__button accent-button" type="button">
+            Boost my website conversion
+          </button>
+          <p class="footer__content__text">
+            So, it’s high time for you to stop losing 99% of potential clients
+            due to being unaware of your website users’ behavior patterns and
+            needs.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
