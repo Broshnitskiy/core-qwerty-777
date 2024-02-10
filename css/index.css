@@ -1,5 +1,5 @@
 
-/* @import "/css/base/common.css";
+@import "/css/base/common.css";
 @import "/css/base/variables.css";
 @import "/css/base/container.css";
 @import "/css/base/visually-hidden.css";
@@ -9,16 +9,41 @@
 
 @import '/css/components/accent-button.css';
 @import '/css/components/link-underline-animation.css';
-@import '/css/components/brand-list.css'; */
+@import '/css/components/brand-list.css';
 
-@import url("/css/base/common.css");
-@import url("/css/base/variables.css");
-@import url("/css/base/container.css");
-@import url("/css/base/visually-hidden.css");
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 320px;
+}
 
-@import url('/css/layout/header.css');
-@import url('/css/layout/hero.css');
+/* // Для 480+ */
 
-@import url('/css/components/accent-button.css');
-@import url('/css/components/link-underline-animation.css');
-@import url('/css/components/brand-list.css');
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+        margin: 0 auto;
+    }
+}
+
+/* // Для 768+ */
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* // Для 1440+ */
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        padding-left: 92px;
+        padding-right: 92px;
+
+    }
+}
