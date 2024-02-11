@@ -93,6 +93,7 @@
   }
 
   .modal-picture__img {
+    max-width: unset;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
